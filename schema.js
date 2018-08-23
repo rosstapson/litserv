@@ -30,7 +30,7 @@ export const typeDefs = gql`
 `
 export const resolvers = {
     Query: {
-        users() {
+        users() {            
             return userModel.list()
         }
     },
